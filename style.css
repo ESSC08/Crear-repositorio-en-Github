@@ -66,11 +66,33 @@ nav ul li a {
     color: white;
 }
 
+nav ul li a:hover {
+    transition-duration: 1.5s;
+    color: #15ff00;
+}
+
 article {
     justify-content: center;
     padding: 3%;
     color: white;
     text-align: center;
+}
+
+.img1 {
+    border: #15ff00 2px solid;
+    border-radius: 2%;
+}
+
+.img1:hover {
+    transform:scale(1.1);
+    transition:all);
+    transition-duration: 1.5s;
+}
+
+.video:hover {
+    transform:scale(1.9) translateY(26%);
+    transition: all;
+    transition-duration: 2s;
 }
 
 h2 {
